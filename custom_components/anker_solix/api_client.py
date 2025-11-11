@@ -35,9 +35,9 @@ from .solixapi.apitypes import ApiCategories, SolixDefaults, SolixDeviceType
 
 _LOGGER = LOGGER
 # min device refresh delay in seconds
-MIN_DEVICE_REFRESH: int = 60
+MIN_DEVICE_REFRESH: int = 5
 # default interval in seconds for refresh cycle
-DEFAULT_UPDATE_INTERVAL: int = 60
+DEFAULT_UPDATE_INTERVAL: int = 5
 # default interval multiplier for device details refresh cycle
 DEFAULT_DEVICE_MULTIPLIER: int = 10
 # default limit for same endpoint requests per minute, use 0 to disable endpoint throttling
